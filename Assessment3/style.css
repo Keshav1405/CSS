@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gray;
+}
+.C1 {
+    background-color: white;
+    padding: 10px;
+    border: 8px groove red;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 8px 8px purple;
+}
+span{
+    display: block;
+}
+#all {
+    width: 30vw;
+    height: 15vh;
+    color: rgb(163, 30, 86);
+    font-family: 'Playball', cursive;
+    position: relative;
+    left: 500px;
+    margin: 4px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 1px rgb(163, 30, 86);
+}
+.container {
+    width: 94vw;
+    height: 100vh;
+    padding-right: 50px;
+    border: 5px solid green;
+    display: grid;
+    grid-template-columns: 40vh 40vh;
+    grid-template-rows: 18vw 18vw;
+    justify-content: space-between;
+    row-gap: 22vh;
+}
+#item1 {
+    text-shadow: 2px 2px 1px rgb(163, 30, 86);
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#item2 {
+    display: flex;
+    align-items: center;
+}
+#item3 {
+    text-shadow: 2px 2px 1px rgb(163, 30, 86);
+}
+#item4 {
+    text-shadow: 2px 2px 1px rgb(163, 30, 86);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    font-size: small;
+}
+#num {
+    width: 100px;
+    text-align: center;
+}
+#sub {
+    background-color: red;
+    border-radius: 10px;
+}
+.container2 {
+    width: 60vw;
+    height: 75vh;
+    background-color: green;
+    border: 8px solid purple;
+    margin: 20px;
+    position: relative;
+    left: 240px;
+}
+.ms {
+    padding: 15px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.food {
+    display: grid;
+    grid-template-columns: 405px 405px;
+    grid-template-rows: 210px 210px;
+    gap: 10px 10px;
+    justify-content: space-between;
+}
+.C2 {
+    background-color: rgb(252, 255, 53);
+}
+#item7{
+    width: 828px;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    line-height: 30px;
+}
+.container3 {
+    position: fixed;
+    left: 450px;
+    bottom: 20px;
+}
+.offer {
+    width: 450px;
+    height: 60px;
+    padding: 10px 0;
+    color: red;
+    background-color: lime;
+    border: 6px solid red;
+    border-radius: 10px;
+    box-shadow: 4px 4px purple;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
